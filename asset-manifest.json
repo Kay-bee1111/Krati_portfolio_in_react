@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Kay-bee1111/Krati_portfolio_in_react/static/css/main.249f577d.css",
+    "main.js": "/Kay-bee1111/Krati_portfolio_in_react/static/js/main.26fb3dde.js",
+    "static/js/453.04ec5b8f.chunk.js": "/Kay-bee1111/Krati_portfolio_in_react/static/js/453.04ec5b8f.chunk.js",
+    "static/media/4.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/4.84a02fa96daa3d00a7a2.png",
+    "static/media/1.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/1.16dfd21e71146b89c7f0.png",
+    "static/media/krati1.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/krati1.0d57ff3f96dd5969c52a.png",
+    "static/media/krati2.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/krati2.36c8efb1c8bbb6dc5873.png",
+    "static/media/3.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/3.ba8b237c5a491e98c42b.png",
+    "static/media/5.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/5.b404f0bd8288df3d8b0e.png",
+    "static/media/2.png": "/Kay-bee1111/Krati_portfolio_in_react/static/media/2.d18c2b61df1bead3ee13.png",
+    "index.html": "/Kay-bee1111/Krati_portfolio_in_react/index.html",
+    "main.249f577d.css.map": "/Kay-bee1111/Krati_portfolio_in_react/static/css/main.249f577d.css.map",
+    "main.26fb3dde.js.map": "/Kay-bee1111/Krati_portfolio_in_react/static/js/main.26fb3dde.js.map",
+    "453.04ec5b8f.chunk.js.map": "/Kay-bee1111/Krati_portfolio_in_react/static/js/453.04ec5b8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.249f577d.css",
+    "static/js/main.26fb3dde.js"
+  ]
+}

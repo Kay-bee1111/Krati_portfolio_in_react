@@ -1,0 +1,45 @@
+.contact-me {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9b194c;
+    font-family: "Radley", serif;
+  }
+  
+  .contact{
+    background-color: #9b194c;
+   
+  }
+  .headingg {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Radley", serif;
+    color:#191919;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Radley", serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #191919;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Radley", serif;
+  }
+  
+  button:hover {
+    background-color: #F4F1E8;
+    color:#191919;
+  }
+  

@@ -1,0 +1,115 @@
+.edu1 {
+    background-color: #F4F1E8;
+    min-height: 91vh;
+    max-height: auto;
+    max-width: 100%;
+    
+    z-index: 1;
+    align-items: center;
+    overflow:hidden;
+    position: relative;
+  }
+  
+  .grid {
+    display: grid;
+    position: relative;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    margin-left: 20vh;
+    margin-right: 10vh;
+    margin-top: 5%;
+    gap: 200px;
+    padding: 0px;
+  }
+  
+  .image {
+    height: 20vh;
+    width: auto;
+    border-radius: 50%;
+    position: relative;
+    align-self: center;
+  }
+  
+  .rule {
+    width: 60%;
+  }
+  
+  .head {
+    font-size: 3rem;
+    font-family: "Radley", serif;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 0%;
+    color: #9b194c;
+    font-style: italic;
+    
+  }
+  
+  .block {
+    height: 40vh;
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 10%;
+    cursor: pointer;
+  }
+  
+  .block:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .block h4,
+  .block h5 {
+    margin: 5px 0; /* Adjust the margin as needed */
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+  }
+  .block h3 {
+    margin: 5px 0; /* Adjust the margin as needed */
+    align-items: center;
+    font-family: "Radley", serif;
+    
+  }
+  
+  .toggle-button {
+      width: 25vw;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      height: 7vh;
+    border-radius: 10rem;  
+    background-color: #9b194c;
+    font-family: "Roboto", sans-serif;
+      font-weight:lighter;
+      text-align: center;
+      border-width: 0;
+      color: #f4f1e8;
+      font-size: medium;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    
+    }
+    
+    .sec:hover{
+      font-weight:lighter;
+      background-color: #6d1237;
+    }
+    
+   
+  
+  
+  .toggle-button:hover {
+    background-color: #7a153a;
+  }
+
+  .header{
+    display:flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25vw;
+    height:27vh;
+  }

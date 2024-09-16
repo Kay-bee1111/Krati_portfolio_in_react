@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import me from './WhatsApp Image 2024-02-16 at 16.23.47_53d92100.jpg'
+import me from './krati1.png'
 import BubbleAnimation from './bubble'
 
 const About = () => {
@@ -11,8 +11,8 @@ const About = () => {
      <div className="bubble-container">
      <div className="aboutcontent">
       <div className="text">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia vitae sunt deserunt quae illum suscipit voluptas, iusto officia nisi voluptatem dignissimos, explicabo adipisci, placeat voluptatum nulla qui praesentium odit? Minima.</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia vitae sunt deserunt quae illum suscipit voluptas, iusto officia nisi voluptatem dignissimos, explicabo adipisci, placeat voluptatum nulla qui praesentium odit? Minima.</p>
+      <p>Hello! I'm Krati Bhardwaj, a B.Tech student in Computer Science at IIIT Bhagalpur.</p> <p>An alumna of DPS Bulandshahr, I'm passionate about web development and AI. I blend technical skills with a love for poetry and storytelling. As a leader and effective communicator, I thrive on collaboration and continuous learning. </p><p>Let's connect and explore the intersection of technology and creativity!</p>
+      
 </div>
 <img src={me} alt="Profile" className="photo"/></div>
 

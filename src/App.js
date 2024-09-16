@@ -6,6 +6,9 @@ import Intro from './intro/intro';
 import Nav from './navbar/navbar';
 import Skills from './skills/skills';
 import Edu from './education/Edu';
+import Por from './por/por';
+import ContactMe from './contact me/contact';
+import CouponComponent from './to be deleted/coupon';
 
 function App() {
   const [activeSection, setActiveSection] = useState('about');
@@ -16,14 +19,16 @@ function App() {
     <div className='nav'>
 
       
-      <button className='sec' onClick={() => setActiveSection('intro')}>Home</button>
+      
       <button className='sec' onClick={() => setActiveSection('about')}>About me</button>
       <button className='sec' onClick={() => setActiveSection('skills')}>My Skills</button>
-      <button className='sec' onClick={() => setActiveSection('edu')}>Education</button></div>
+      <button className='sec' onClick={() => setActiveSection('edu')}>Education</button>
+      <button className='sec' onClick={() => setActiveSection('por')}>Positions</button>
+      </div>
       <TransitionGroup>
-        {activeSection === 'intro' && (
-          <CSSTransition key="intro" timeout={500} classNames="fade">
-            <Intro />
+        {activeSection === 'por' && (
+          <CSSTransition key="por" timeout={500} classNames="fade">
+            <Por />
           </CSSTransition>
         )}
         {activeSection === 'about' && (
@@ -42,6 +47,8 @@ function App() {
           </CSSTransition>
         )}
       </TransitionGroup>
+      
+      <ContactMe/>
       
     </>
   );
